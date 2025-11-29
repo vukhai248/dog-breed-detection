@@ -143,7 +143,7 @@ def display_result(img_cv2, breed, bbox, save_path=None):
 
 # --- VÍ DỤ SỬ DỤNG ---
 if __name__ == "__main__":
-    image_test_path = r'C:\Users\VICTUS\Desktop\create\xla_re\data\raw\images\Images\n02085620-Chihuahua\n02085620_3045.jpg'
+    image_test_path = 'data/raw/images/Images/n02085620-Chihuahua/n02085620_3045.jpg'
     
     # Kiểm tra file tồn tại
     if not os.path.exists(image_test_path):
